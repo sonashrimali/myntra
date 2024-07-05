@@ -9,31 +9,47 @@
 /* Begin PBXBuildFile section */
 		2003E6982C116BEC002DB21E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E6972C116BEC002DB21E /* AppDelegate.swift */; };
 		2003E69A2C116BEC002DB21E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E6992C116BEC002DB21E /* SceneDelegate.swift */; };
-		2003E69C2C116BEC002DB21E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E69B2C116BEC002DB21E /* ViewController.swift */; };
 		2003E69F2C116BEC002DB21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2003E69D2C116BEC002DB21E /* Main.storyboard */; };
 		2003E6A12C116BED002DB21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2003E6A02C116BED002DB21E /* Assets.xcassets */; };
 		2003E6A42C116BED002DB21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2003E6A22C116BED002DB21E /* LaunchScreen.storyboard */; };
 		2003E6AC2C118231002DB21E /* login_vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E6AB2C118231002DB21E /* login_vc.swift */; };
-		2003E6AE2C11824D002DB21E /* sign_vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E6AD2C11824D002DB21E /* sign_vc.swift */; };
+		2003E6AE2C11824D002DB21E /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E6AD2C11824D002DB21E /* Signup.swift */; };
 		207BC1892C14537600196382 /* Home_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207BC1882C14537600196382 /* Home_VC.swift */; };
+		6432CDC72C2BD89200211768 /* Privacy policy_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6432CDC62C2BD89200211768 /* Privacy policy_VC.swift */; };
+		643492292C268B650012096A /* Order_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643492282C268B650012096A /* Order_VC.swift */; };
+		6466C5F22C25514100442378 /* profilepage_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6466C5F12C25514100442378 /* profilepage_VC.swift */; };
+		6466C5F72C25641D00442378 /* acc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6466C5F52C25641D00442378 /* acc.swift */; };
+		6466C5F82C25641D00442378 /* acc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6466C5F62C25641D00442378 /* acc.xib */; };
+		647D24232C35607C009D3251 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 647D24222C35607C009D3251 /* GoogleService-Info.plist */; };
+		648E59DB2C2FB1BF006E9A38 /* Saved_details_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648E59DA2C2FB1BF006E9A38 /* Saved_details_VC.swift */; };
 		64B0F8992C197B9D006A357B /* Reset_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F8982C197B9D006A357B /* Reset_VC.swift */; };
 		64B0F89D2C1998B2006A357B /* Termsofuse_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F89C2C1998B2006A357B /* Termsofuse_VC.swift */; };
+		76D981B6DFEC9811D85C9831 /* Pods_myntra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BEF9F4E29743C36E0CD9FB /* Pods_myntra.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07EC5B98A9FF23EB75FFECF6 /* Pods-myntra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myntra.release.xcconfig"; path = "Target Support Files/Pods-myntra/Pods-myntra.release.xcconfig"; sourceTree = "<group>"; };
 		2003E6942C116BEC002DB21E /* myntra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myntra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2003E6972C116BEC002DB21E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2003E6992C116BEC002DB21E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2003E69B2C116BEC002DB21E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2003E69E2C116BEC002DB21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2003E6A02C116BED002DB21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2003E6A32C116BED002DB21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2003E6A52C116BED002DB21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2003E6AB2C118231002DB21E /* login_vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_vc.swift; sourceTree = "<group>"; };
-		2003E6AD2C11824D002DB21E /* sign_vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sign_vc.swift; sourceTree = "<group>"; };
+		2003E6AD2C11824D002DB21E /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; tabWidth = 5; };
 		207BC1882C14537600196382 /* Home_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_VC.swift; sourceTree = "<group>"; };
+		57BEF9F4E29743C36E0CD9FB /* Pods_myntra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myntra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6432CDC62C2BD89200211768 /* Privacy policy_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Privacy policy_VC.swift"; sourceTree = "<group>"; };
+		643492282C268B650012096A /* Order_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order_VC.swift; sourceTree = "<group>"; };
+		6466C5F12C25514100442378 /* profilepage_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilepage_VC.swift; sourceTree = "<group>"; };
+		6466C5F52C25641D00442378 /* acc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acc.swift; sourceTree = "<group>"; };
+		6466C5F62C25641D00442378 /* acc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = acc.xib; sourceTree = "<group>"; };
+		647D24222C35607C009D3251 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		648E59DA2C2FB1BF006E9A38 /* Saved_details_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saved_details_VC.swift; sourceTree = "<group>"; };
 		64B0F8982C197B9D006A357B /* Reset_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset_VC.swift; sourceTree = "<group>"; };
 		64B0F89C2C1998B2006A357B /* Termsofuse_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Termsofuse_VC.swift; sourceTree = "<group>"; };
+		DFAE37448A4AF02CCDC592B9 /* Pods-myntra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myntra.debug.xcconfig"; path = "Target Support Files/Pods-myntra/Pods-myntra.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D981B6DFEC9811D85C9831 /* Pods_myntra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +69,8 @@
 			children = (
 				2003E6962C116BEC002DB21E /* myntra */,
 				2003E6952C116BEC002DB21E /* Products */,
+				D0A12EB7BF2F0A055E7B7979 /* Frameworks */,
+				9397A4F016D6F19D60363408 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,18 +87,41 @@
 			children = (
 				2003E6972C116BEC002DB21E /* AppDelegate.swift */,
 				2003E6992C116BEC002DB21E /* SceneDelegate.swift */,
+				6432CDC62C2BD89200211768 /* Privacy policy_VC.swift */,
 				2003E6AB2C118231002DB21E /* login_vc.swift */,
 				64B0F8982C197B9D006A357B /* Reset_VC.swift */,
-				2003E6AD2C11824D002DB21E /* sign_vc.swift */,
-				2003E69B2C116BEC002DB21E /* ViewController.swift */,
+				2003E6AD2C11824D002DB21E /* Signup.swift */,
+				6466C5F52C25641D00442378 /* acc.swift */,
+				6466C5F62C25641D00442378 /* acc.xib */,
 				2003E69D2C116BEC002DB21E /* Main.storyboard */,
+				6466C5F12C25514100442378 /* profilepage_VC.swift */,
+				643492282C268B650012096A /* Order_VC.swift */,
+				648E59DA2C2FB1BF006E9A38 /* Saved_details_VC.swift */,
 				64B0F89C2C1998B2006A357B /* Termsofuse_VC.swift */,
 				207BC1882C14537600196382 /* Home_VC.swift */,
 				2003E6A02C116BED002DB21E /* Assets.xcassets */,
 				2003E6A22C116BED002DB21E /* LaunchScreen.storyboard */,
+				647D24222C35607C009D3251 /* GoogleService-Info.plist */,
 				2003E6A52C116BED002DB21E /* Info.plist */,
 			);
 			path = myntra;
+			sourceTree = "<group>";
+		};
+		9397A4F016D6F19D60363408 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFAE37448A4AF02CCDC592B9 /* Pods-myntra.debug.xcconfig */,
+				07EC5B98A9FF23EB75FFECF6 /* Pods-myntra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0A12EB7BF2F0A055E7B7979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57BEF9F4E29743C36E0CD9FB /* Pods_myntra.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2003E6A82C116BED002DB21E /* Build configuration list for PBXNativeTarget "myntra" */;
 			buildPhases = (
+				5BD9EE1A228EA870F34B5330 /* [CP] Check Pods Manifest.lock */,
 				2003E6902C116BEC002DB21E /* Sources */,
 				2003E6912C116BEC002DB21E /* Frameworks */,
 				2003E6922C116BEC002DB21E /* Resources */,
+				CB54A2843461FC3B95DDDEC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,25 +186,73 @@
 			files = (
 				2003E6A42C116BED002DB21E /* LaunchScreen.storyboard in Resources */,
 				2003E6A12C116BED002DB21E /* Assets.xcassets in Resources */,
+				647D24232C35607C009D3251 /* GoogleService-Info.plist in Resources */,
 				2003E69F2C116BEC002DB21E /* Main.storyboard in Resources */,
+				6466C5F82C25641D00442378 /* acc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BD9EE1A228EA870F34B5330 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myntra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB54A2843461FC3B95DDDEC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myntra/Pods-myntra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myntra/Pods-myntra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myntra/Pods-myntra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2003E6902C116BEC002DB21E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2003E69C2C116BEC002DB21E /* ViewController.swift in Sources */,
+				643492292C268B650012096A /* Order_VC.swift in Sources */,
 				2003E6982C116BEC002DB21E /* AppDelegate.swift in Sources */,
 				207BC1892C14537600196382 /* Home_VC.swift in Sources */,
+				6432CDC72C2BD89200211768 /* Privacy policy_VC.swift in Sources */,
 				64B0F89D2C1998B2006A357B /* Termsofuse_VC.swift in Sources */,
 				2003E6AC2C118231002DB21E /* login_vc.swift in Sources */,
 				64B0F8992C197B9D006A357B /* Reset_VC.swift in Sources */,
 				2003E69A2C116BEC002DB21E /* SceneDelegate.swift in Sources */,
-				2003E6AE2C11824D002DB21E /* sign_vc.swift in Sources */,
+				648E59DB2C2FB1BF006E9A38 /* Saved_details_VC.swift in Sources */,
+				2003E6AE2C11824D002DB21E /* Signup.swift in Sources */,
+				6466C5F72C25641D00442378 /* acc.swift in Sources */,
+				6466C5F22C25514100442378 /* profilepage_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +394,7 @@
 		};
 		2003E6A92C116BED002DB21E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFAE37448A4AF02CCDC592B9 /* Pods-myntra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,8 +405,11 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				"INFOPLIST_KEY_UIMainStoryboardFile[sdk=iphonesimulator*]" = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad[sdk=iphonesimulator*]" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone[sdk=iphonesimulator*]" = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +425,7 @@
 		};
 		2003E6AA2C116BED002DB21E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EC5B98A9FF23EB75FFECF6 /* Pods-myntra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
